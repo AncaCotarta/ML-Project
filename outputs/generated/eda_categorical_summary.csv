@@ -1,0 +1,5 @@
+,unique_values,most_frequent_value,most_frequent_count,most_frequent_rate
+Month,10,May,3364,0.27283049472830495
+VisitorType,3,Returning_Visitor,10551,0.8557177615571776
+Weekend,2,False,9462,0.767396593673966
+Revenue,2,False,10422,0.8452554744525548

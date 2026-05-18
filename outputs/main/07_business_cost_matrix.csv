@@ -1,0 +1,5 @@
+case,value,interpretation
+True positive,20.0,Correctly targeted buyer
+False positive,-2.0,Marketing action sent to non-buyer
+False negative,0.0,"Missed buyer, no direct action cost counted"
+True negative,0.0,Correctly ignored non-buyer

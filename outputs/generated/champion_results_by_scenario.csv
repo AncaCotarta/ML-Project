@@ -1,0 +1,3 @@
+scenario,model,best_params,cv_f1,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,pr_auc
+with_page_values,random_forest_champion,"{'model__max_depth': None, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 5}",0.6726039407328163,0.8751013787510138,0.8256197807277588,0.5737051792828686,0.7539267015706806,0.6515837104072398,0.9201796786284934,0.7108731856169974
+without_page_values,random_forest_champion,"{'model__max_depth': None, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 20}",0.4194352234458248,0.6861313868613139,0.6806772618102521,0.2836644591611479,0.6727748691099477,0.39906832298136646,0.757181366884063,0.3529025555443923

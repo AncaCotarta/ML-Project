@@ -1,0 +1,150 @@
+
+with_page_values
+================
+
+dummy_baseline
+--------------
+              precision    recall  f1-score   support
+
+  No revenue       0.85      1.00      0.92      2084
+     Revenue       0.00      0.00      0.00       382
+
+    accuracy                           0.85      2466
+   macro avg       0.42      0.50      0.46      2466
+weighted avg       0.71      0.85      0.77      2466
+
+
+logistic_regression
+-------------------
+              precision    recall  f1-score   support
+
+  No revenue       0.95      0.86      0.90      2084
+     Revenue       0.50      0.74      0.60       382
+
+    accuracy                           0.85      2466
+   macro avg       0.72      0.80      0.75      2466
+weighted avg       0.88      0.85      0.86      2466
+
+
+decision_tree
+-------------
+              precision    recall  f1-score   support
+
+  No revenue       0.97      0.85      0.90      2084
+     Revenue       0.50      0.84      0.63       382
+
+    accuracy                           0.85      2466
+   macro avg       0.74      0.84      0.77      2466
+weighted avg       0.89      0.85      0.86      2466
+
+
+knn
+---
+              precision    recall  f1-score   support
+
+  No revenue       0.89      0.97      0.93      2084
+     Revenue       0.68      0.37      0.48       382
+
+    accuracy                           0.88      2466
+   macro avg       0.79      0.67      0.70      2466
+weighted avg       0.86      0.88      0.86      2466
+
+
+gradient_boosting
+-----------------
+              precision    recall  f1-score   support
+
+  No revenue       0.93      0.96      0.94      2084
+     Revenue       0.71      0.59      0.64       382
+
+    accuracy                           0.90      2466
+   macro avg       0.82      0.77      0.79      2466
+weighted avg       0.89      0.90      0.89      2466
+
+
+random_forest_champion
+----------------------
+              precision    recall  f1-score   support
+
+  No revenue       0.95      0.90      0.92      2084
+     Revenue       0.57      0.75      0.65       382
+
+    accuracy                           0.88      2466
+   macro avg       0.76      0.83      0.79      2466
+weighted avg       0.89      0.88      0.88      2466
+
+
+without_page_values
+===================
+
+dummy_baseline
+--------------
+              precision    recall  f1-score   support
+
+  No revenue       0.85      1.00      0.92      2084
+     Revenue       0.00      0.00      0.00       382
+
+    accuracy                           0.85      2466
+   macro avg       0.42      0.50      0.46      2466
+weighted avg       0.71      0.85      0.77      2466
+
+
+logistic_regression
+-------------------
+              precision    recall  f1-score   support
+
+  No revenue       0.93      0.61      0.74      2084
+     Revenue       0.26      0.75      0.39       382
+
+    accuracy                           0.63      2466
+   macro avg       0.59      0.68      0.56      2466
+weighted avg       0.83      0.63      0.68      2466
+
+
+decision_tree
+-------------
+              precision    recall  f1-score   support
+
+  No revenue       0.92      0.65      0.76      2084
+     Revenue       0.26      0.69      0.38       382
+
+    accuracy                           0.66      2466
+   macro avg       0.59      0.67      0.57      2466
+weighted avg       0.82      0.66      0.70      2466
+
+
+knn
+---
+              precision    recall  f1-score   support
+
+  No revenue       0.86      0.96      0.90      2084
+     Revenue       0.36      0.13      0.19       382
+
+    accuracy                           0.83      2466
+   macro avg       0.61      0.54      0.55      2466
+weighted avg       0.78      0.83      0.79      2466
+
+
+gradient_boosting
+-----------------
+              precision    recall  f1-score   support
+
+  No revenue       0.86      0.97      0.91      2084
+     Revenue       0.47      0.14      0.21       382
+
+    accuracy                           0.84      2466
+   macro avg       0.66      0.55      0.56      2466
+weighted avg       0.80      0.84      0.80      2466
+
+
+random_forest_champion
+----------------------
+              precision    recall  f1-score   support
+
+  No revenue       0.92      0.69      0.79      2084
+     Revenue       0.28      0.67      0.40       382
+
+    accuracy                           0.69      2466
+   macro avg       0.60      0.68      0.59      2466
+weighted avg       0.82      0.69      0.73      2466
+

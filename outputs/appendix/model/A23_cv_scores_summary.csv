@@ -1,0 +1,6 @@
+scenario,model,cv_f1_mean,cv_f1_std,cv_f1_lower,cv_f1_upper
+with_page_values,random_forest_champion,0.6726,0.0129,0.6597,0.6855
+with_page_values,gradient_boosting,0.6621,0.0163,0.6458,0.6785
+with_page_values,decision_tree,0.6419,0.0085,0.6335,0.6504
+with_page_values,logistic_regression,0.6197,0.0068,0.6128,0.6265
+with_page_values,knn,0.4892,0.0043,0.4849,0.4936
